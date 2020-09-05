@@ -2,7 +2,7 @@ package ru.x5;
 
 import java.util.Scanner;
 
-public class Project2_1 {
+public class Project2_2 {
     
    public static void main(String[] args) {
     
