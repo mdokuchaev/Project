@@ -12,8 +12,7 @@ public class Project2_1 {
     System.out.print("Введите целое трехзначное число: ");
     String s = in.nextLine();
     
-    try {
-        
+    try { 
         i = Math.abs(Integer.parseInt(s));
         if ((i >= 100) && (i <= 999)) {
             i = i / 100 + i / 10 % 10 + i % 10;
@@ -24,8 +23,7 @@ public class Project2_1 {
         }
     } 
     catch (NumberFormatException e) {
-        System.out.println("Ошибка: " + s + " не является целым числом.");
-        
+        System.out.println("Ошибка: " + s + " не является целым числом.");    
     }
     in.close();
 }
