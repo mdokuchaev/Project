@@ -40,5 +40,5 @@ public class Project2_8 {
        System.out.println("Количество положительных элементов в массиве: " + count1);
        System.out.println("Среднее арифметическое отрицательных элементов в массиве: " + average);
    }
- 
+
 }
