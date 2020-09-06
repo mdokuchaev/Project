@@ -1,4 +1,4 @@
-package ru.x5;
+//package ru.x5;
 
 import java.util.Arrays;
 
@@ -39,8 +39,6 @@ public class Project2_8 {
        System.out.println("Cумма четных отрицательных элементов в массиве: " + sum2);
        System.out.println("Количество положительных элементов в массиве: " + count1);
        System.out.println("Среднее арифметическое отрицательных элементов в массиве: " + average);
-
    }
  
 }
-
