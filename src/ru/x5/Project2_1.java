@@ -11,7 +11,7 @@ public class Project2_1 {
 
     System.out.print("Введите целое число: ");
     String s = in.nextLine();
-    
+   
     try {  
         i = Integer.parseInt(s);
         System.out.println("Последняя цифра введенного числа: " + Math.abs(i % 10));
