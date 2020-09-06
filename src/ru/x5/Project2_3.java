@@ -11,7 +11,7 @@ public class Project2_3 {
 
     System.out.print("Введите целое число: ");
     String s = in.nextLine();
-    
+   
     try {
         i = Integer.parseInt(s);
         if (i >= 0) {
