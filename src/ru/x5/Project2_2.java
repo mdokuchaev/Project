@@ -11,7 +11,7 @@ public class Project2_2 {
 
     System.out.print("Введите целое трехзначное число: ");
     String s = in.nextLine();
-    
+   
     try {
         i = Math.abs(Integer.parseInt(s));
         if ((i >= 100) && (i <= 999)) {
