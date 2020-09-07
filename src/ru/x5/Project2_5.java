@@ -3,7 +3,7 @@
 Вывести на экран наименьшее из них.
 */
 
-
+package ru.x5;
 
 import java.util.Scanner;
 import java.util.Arrays;
