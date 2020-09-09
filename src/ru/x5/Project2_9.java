@@ -13,22 +13,21 @@ public class Project2_9 {
     
    public static void main(String[] args) {
        
-       int[] mass = {15,10,51,-6,-5,3,-10,-34,0,32,56,-12,24,-52}; 
-       System.out.println("Массив целых чисел: " +  Arrays.toString(mass));
+       int[] massInt = {15,10,51,-6,-5,3,-10,-34,0,32,56,-12,24,-52}; 
+       System.out.println("Массив целых чисел: " +  Arrays.toString(massInt));
    
-       int a = 0;
+       int tempInt = 0;
        
-       for (int i = 0; i < mass.length / 2; i++) {
+       for (int i = 0; i < massInt.length / 2; i++) {
            
-           a = mass [i];
-           mass [i] = mass [mass.length - 1 - i];
-           mass [mass.length - 1 - i] = a;
+           tempInt = massInt [i];
+           massInt [i] = massInt [massInt.length - 1 - i];
+           massInt [massInt.length - 1 - i] = tempInt;
          
        }
        
-       System.out.println("Массив целых чисел в обратном порядке: " +  Arrays.toString(mass));
+       System.out.println("Массив целых чисел в обратном порядке: " +  Arrays.toString(massInt));
      
    }
  
 }
-
