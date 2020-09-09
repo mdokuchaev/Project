@@ -18,13 +18,13 @@ public class Project2_2 {
     String s = in.nextLine();
    
     try {
-        int i = Math.abs(Integer.parseInt(s));
-        if ((i >= 100) && (i <= 999)) {
+        int number = Math.abs(Integer.parseInt(s));
+        if ((number >= 100) && (number <= 999)) {
             int sumdigits = 0;
             do {
-               sumdigits += i % 10;
-               i /= 10;
-            } while (i > 0);
+               sumdigits += number % 10;
+               number /= 10;
+            } while (number > 0);
             
             System.out.println("Сумма цифр этого трехзначного числа: " + sumdigits);
         }  
