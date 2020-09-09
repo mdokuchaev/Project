@@ -18,16 +18,16 @@ public class Project2_3 {
     String s = in.nextLine();
    
     try {
-        int i = Integer.parseInt(s);
-        if (i >= 0) {
-            i++;
+        int number = Integer.parseInt(s);
+        if (number >= 0) {
+            number++;
         }  
-        System.out.println("Введенное число: " + i);
+        System.out.println("Введенное число: " + number);
     } 
     catch (NumberFormatException e) {
         System.out.println("Ошибка: " + s + " не является целым числом.");    
     }
     in.close();
 }
- 
+
 }
