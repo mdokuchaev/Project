@@ -20,39 +20,39 @@ public class Project2_8 {
     
    public static void main(String[] args) {
        
-       int[] mass = {1,-10,5,6,45,23,-45,-34,0,32,56,-1,2,-2}; 
-       System.out.println("Массив целых чисел: " +  Arrays.toString(mass));
-       int max = mass[0];
-       int sum1 = 0, sum2 = 0, sum3 = 0;
-       int count1 = 0, count2 = 0;
-       double average = 0;
-       
-       for (int i=0; i < mass.length; i++) {
-         if (mass[i] > max) {
-             max = mass[i]; // максимальное значение
+       int[] massInt = {1,-10,5,6,45,23,-45,-34,0,32,56,-1,2,-2}; 
+       System.out.println("Массив целых чисел: " +  Arrays.toString(massInt));
+       int maxEelement = massInt[0];
+       int sumPositiveElements = 0, sumEvenNegativEelements = 0, sumNegativEelements = 0;
+       int countPositiveElements = 0, countNegativElements = 0;
+       double averageNegativElements = 0;
+         
+       for (int i = 0; i < massInt.length; i++) {
+         if (massInt[i] > maxEelement) {
+             maxEelement = massInt[i]; // максимальное значение
          }
-         if (mass[i] >= 0) {
-             sum1 += mass[i]; // сумма положительных элементов
-             count1++; //количество положительных элементов
+         if (massInt[i] >= 0) {
+             sumPositiveElements += massInt[i]; // сумма положительных элементов
+             countPositiveElements++; //количество положительных элементов
          }
-         if (mass[i] < 0) {
-             if (mass[i] % 2 == 0) {
-                 sum2 += mass[i]; // сумма четных отрицательных элементов
+         if (massInt[i] < 0) {
+             if (massInt[i] % 2 == 0) {
+                 sumEvenNegativEelements += massInt[i]; // сумма четных отрицательных элементов
              }
-            sum3 += mass[i]; // сумма отрицательных элементов
-            count2 ++; // количество отрицательных элементов
+            sumNegativEelements += massInt[i]; // сумма отрицательных элементов
+            countNegativElements ++; // количество отрицательных элементов
          }
        }
        
-       if (count2 > 0) {
-          average = sum3 * 1.0 / count2;
+       if (countNegativElements > 0) {
+          averageNegativElements = sumNegativEelements * 1.0 / countNegativElements;
        }
        
-       System.out.println("Максимальное значение в массиве: " +  max);
-       System.out.println("Сумма положительных элементов в массиве: " + sum1);
-       System.out.println("Cумма четных отрицательных элементов в массиве: " + sum2);
-       System.out.println("Количество положительных элементов в массиве: " + count1);
-       System.out.println("Среднее арифметическое отрицательных элементов в массиве: " + average);
+       System.out.println("Максимальное значение в массиве: " +  maxEelement);
+       System.out.println("Сумма положительных элементов в массиве: " + sumPositiveElements);
+       System.out.println("Cумма четных отрицательных элементов в массиве: " + sumEvenNegativEelements);
+       System.out.println("Количество положительных элементов в массиве: " + countPositiveElements);
+       System.out.println("Среднее арифметическое отрицательных элементов в массиве: " + averageNegativElements);
    }
 
 }
