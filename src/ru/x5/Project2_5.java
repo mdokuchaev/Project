@@ -18,10 +18,10 @@ public class Project2_5 {
     String s = in.nextLine();
    
     try {
-        int[] mass = Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).toArray();
-        if (mass.length == 3) {
-          Arrays.sort(mass);
-          System.out.println("Наименьшее из введенных чисел: " + mass[0]);
+        int[] massInt = Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).toArray();
+        if (massInt.length == 3) {
+          Arrays.sort(massInt);
+          System.out.println("Наименьшее из введенных чисел: " + massInt[0]);
         } else {
             System.out.println("Ошибка: необходимо ввести 3 целых числа!"); 
         }
