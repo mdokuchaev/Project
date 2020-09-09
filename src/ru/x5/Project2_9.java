@@ -25,9 +25,6 @@ public class Project2_9 {
            massInt [massInt.length - 1 - i] = tempInt;
          
        }
-       
        System.out.println("Массив целых чисел в обратном порядке: " +  Arrays.toString(massInt));
-     
    }
- 
 }
