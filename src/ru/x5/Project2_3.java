@@ -14,13 +14,11 @@ public class Project2_3 {
    public static void main(String[] args) {
     
     Scanner in = new Scanner(System.in);
-    int i = 0;
-
     System.out.print("Введите целое число: ");
     String s = in.nextLine();
    
     try {
-        i = Integer.parseInt(s);
+        int i = Integer.parseInt(s);
         if (i >= 0) {
             i++;
         }  
