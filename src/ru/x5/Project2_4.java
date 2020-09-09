@@ -20,18 +20,18 @@ public class Project2_4 {
     String s = in.nextLine();
     
     try {
-        int i = Integer.parseInt(s);
-        if (i > 0) {
-            i++;
+        int number = Integer.parseInt(s);
+        if (number > 0) {
+            number++;
         }  
-        else if (i < 0) {
-            i-=2;
+        else if (number < 0) {
+            number -= 2;
         }
         else {
-            i=10;
+            number = 10;
         }
         
-        System.out.println("Введенное число: " + i);
+        System.out.println("Введенное число: " + number);
     } 
     catch (NumberFormatException e) {
         System.out.println("Ошибка: " + s + " не является целым числом.");    
