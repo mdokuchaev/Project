@@ -9,8 +9,6 @@
 
 package ru.x5;
 
-import java.util.Scanner;
-
 public class Project2_6 {
     
    public static void main(String[] args) {
@@ -20,19 +18,19 @@ public class Project2_6 {
     String s = in.nextLine();
     
     try {
-        int i = Integer.parseInt(s);
+        int number = Integer.parseInt(s);
         
-        if (i == 0) {
+        if (number == 0) {
             s = "нулевое ";
         }  
         else {
-            if (i < 0) {
+            if (number < 0) {
               s = "отрицательное ";
             }
             else {
               s = "положительное ";
             }
-            if (i % 2 == 0) {
+            if (number % 2 == 0) {
               s = s + "четное ";
             }
             else {
