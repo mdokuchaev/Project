@@ -24,9 +24,8 @@ public class Project2_7 {
     String s = in.nextLine();
     
     try {
-        int i = Integer.parseInt(s); 
         int minute =  10;
-        switch (i) {
+        switch (Integer.parseInt(s)) {
           case 905:
               System.out.println("Москва. Стоимость разговора: " + 4.15 * minute + " руб.");
               break;
