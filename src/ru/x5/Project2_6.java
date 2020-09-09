@@ -9,6 +9,8 @@
 
 package ru.x5;
 
+import java.util.Scanner;
+
 public class Project2_6 {
     
    public static void main(String[] args) {
