@@ -24,19 +24,20 @@ public class Project2_7 {
     String s = in.nextLine();
     
     try {
-        int i = Integer.parseInt(s);   
+        int i = Integer.parseInt(s); 
+        int minute =  10;
         switch (i) {
           case 905:
-              System.out.println("Москва. Стоимость разговора: " + 4.15 * 10 + " руб.");
+              System.out.println("Москва. Стоимость разговора: " + 4.15 * minute + " руб.");
               break;
           case 194:
-              System.out.println("Ростов. Стоимость разговора: " + 1.98 * 10 + " руб.");
+              System.out.println("Ростов. Стоимость разговора: " + 1.98 * minute + " руб.");
               break;
           case 491:
-              System.out.println("Краснодар. Стоимость разговора: " + 2.69 * 10 + " руб.");
+              System.out.println("Краснодар. Стоимость разговора: " + 2.69 * minute + " руб.");
               break;
           case 800:
-              System.out.println("Киров. Стоимость разговора: " + 5.00 * 10 + " руб.");
+              System.out.println("Киров. Стоимость разговора: " + 5.00 * minute + " руб.");
               break;
           default:
               System.out.println("Код города не найден.");
