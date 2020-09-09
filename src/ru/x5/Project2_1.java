@@ -16,7 +16,6 @@ public class Project2_1 {
      String s = in.nextLine(); 
      
      try {   
- 
          System.out.println("Последняя цифра введенного числа: " + Math.abs(Integer.parseInt(s) % 10)); 
      }  
      catch (NumberFormatException e) { 
