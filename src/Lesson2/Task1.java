@@ -6,7 +6,7 @@ package ru.x5;
 
 import java.util.Scanner; 
 
-public class Project2_1 { 
+public class Task1 {
       
     public static void main(String[] args) { 
       
