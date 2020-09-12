@@ -2,7 +2,7 @@
 Ввести целое число в консоли и вывести на экран последнюю цифру введенного числа.
 */
 
-package ru.x5;
+package Lesson2;
 
 import java.util.Scanner; 
 
