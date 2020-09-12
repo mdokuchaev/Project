@@ -5,11 +5,11 @@
 
 */
 
-package ru.x5;
+package Lesson2;
 
 import java.util.Scanner;
 
-public class Project2_3 {
+public class Task3 {
     
    public static void main(String[] args) {
     
